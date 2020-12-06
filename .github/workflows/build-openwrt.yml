@@ -21,6 +21,10 @@ on:
         required: false
         default: 'false'
 
+#点☆Star触发开始编译
+  watch:
+    types: started
+
 env:
   REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
   PPPOE_USERNAME: ${{ secrets.PPPOE_USERNAME }}
